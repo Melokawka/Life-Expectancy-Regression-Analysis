@@ -5,7 +5,7 @@ The project is focused on predicting life expectancy based on socio-economic and
 
 Fuzzification of the Life Expectancy parameter did not simplify the problem - it remained a regression task, and converting it into classification did not provide significant benefits.
 
-Imbalanced classes (especially the smallest class 1) negatively affected classification performance - the model tended to assign samples to more frequent classes.
+Imbalanced classes (especially the smallest class 1 that included countries with the life expectancy of 35-45) negatively affected classification performance - the model tended to assign samples to more frequent classes.
 
 Data preprocessing (imputation, normalization, manual correction of errors) was crucial for achieving good results, particularly given the large number of missing values and outliers.
 
