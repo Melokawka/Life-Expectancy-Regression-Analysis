@@ -1,7 +1,7 @@
 # Life-Expectancy-Regression-Analysis
 The project is focused on predicting life expectancy based on socio-economic and health-related data (2,938 records, 21 features). The regression problem was transformed into a quasi-classification task by applying fuzzy logic and dividing the target variable into intervals. The data underwent preprocessing, including manual correction of corrupted columns (Population), missing data imputation (fuzzy class means, linear regression for correlated columns - e.g. HepatitisB), normalization, and feature selection (correlation analysis, VIF). The final model was a patternnet neural network with three hidden layers (24-12-6) - the best performance was achieved with the Levenberg–Marquardt method. The model reached an accuracy of approximately 0.898 and low regression errors (MAE/MAPE), although the classes were imbalanced.
 
-Conclusions
+# Conclusions
 
 The application of fuzzification did not address the core nature of the problem - it remained a regression task, and converting it into classification did not provide significant benefits.
 
