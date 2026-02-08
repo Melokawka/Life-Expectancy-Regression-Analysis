@@ -3,7 +3,7 @@ The project is focused on predicting life expectancy based on socio-economic and
 
 # Conclusions
 
-The application of fuzzification did not address the core nature of the problem - it remained a regression task, and converting it into classification did not provide significant benefits.
+Fuzzification of the Life Expectancy parameter did not simplify the problem - it remained a regression task, and converting it into classification did not provide significant benefits.
 
 Imbalanced classes (especially the smallest class 1) negatively affected classification performance - the model tended to assign samples to more frequent classes.
 
