@@ -1,4 +1,8 @@
 # Life-Expectancy-Regression-Analysis
+
+Data from Kaggle:
+https://www.kaggle.com/datasets/ayushparwal2026/country-population-from-1960-to-2022
+
 The project is focused on predicting life expectancy based on socio-economic and health-related data (2,938 records, 21 features). 
 
 The project was used to test the idea of transforming a typical regression problem into a classification task using fuzzification of the Life Expectancy column. As opposed to naive approaches, fuzzy classes preserve the entirety of the original data structure due to reversibility of the fuzzification.
